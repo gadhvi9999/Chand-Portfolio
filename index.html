@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CHAND's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2f78dbfd03.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="image/LOGO.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hello, <span>CHAND's</span><br> here from Vadodara</h1>
+                </div>
+            </div>
+        </div>
+        
+    <!-----------about------------>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/IMG_6863.JPG.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hi, I'm Chand Saparia from Vadodara. I'm a Web Designer and UI/UX Designer.
+                           This is my portfolio and show my work. This is my own creativity and ideas
+                           I'm using Adobe Illustrator, Adobe Photoshop, Adobe Xd, CorelDraw, InDesign.
+                         </p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web</li>
+                                <li><span>GRAPHIC DESIGN</span><br>Logo / Poster Design / Photo Edit </li>
+                                <li><span>APPS</span><br>Adobe Ai / Adobe Ps / CorelDraw / Adobe Xd / Adobe InDesign</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022 - CURRENT</span><br>Web Design Training at MAAC Vadodara</li>
+                                <li><span>GRAPHIC DESIGN</span><br>Work Experience with MAAC Vadodara</li>
+                                <li><span>APPS</span><br>Practice with Adobe Illustrator / Adobe Photoshop / Adobe Xd / Adobe InDesign / CoralDraw</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022</span><br>Designing Graphic Web Animation From MAAC Vadodara </li>
+                                
+                            </ul>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-------------------SERVICES-------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida orci eu tempor vulputate. Curabitur sapien lacus, consect sit amet tempus eu, malesuada in sapien.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida orci eu tempor vulputate. Curabitur sapien lacus, consect sit amet tempus eu, malesuada in sapien.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Graphic Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida orci eu tempor vulputate. Curabitur sapien lacus, consect sit amet tempus eu, malesuada in sapien.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- ---------Portfolio--------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/ui post 2.png" height="500px" width="350px">
+                <div class="layer">
+                    <h3>UI Design </h3>
+                    <p>What do you think about this design?</p>
+                    <a href="image/ui post 2.png"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/MAGAZINE COVER copy.jpg" height="500px" width="350px">
+                <div class="layer">
+                    <h3> Magazine cover</h3>
+                    <p>Do you like this Magazine cover design?</p>
+                    <a href="index1.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/kabir singh.png" height="500px" width="350px">
+                <div class="layer">
+                    <h3> Vector photo </h3>
+                    <p>Do you want to creat your vector?</p>
+                    <a href="index2.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -------------contact------------------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>chand.sapariya@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9714606707</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/chand.sapariya/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/chand_saparia/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://twitter.com/chand_saparia"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://in.linkedin.com/in/saparia-chand-960908211"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/Paras cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Chand's Portfolio Made with <i class="fa-solid fa-heart"></i> by Chand </p>
+    </div>
+</div>
+        <script>
+
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right ="0";
+            }
+            function closemenu(){
+                sidemenu.style.right ="-200px";
+            }
+
+        </script>
+        
+    </body>
+</html>
